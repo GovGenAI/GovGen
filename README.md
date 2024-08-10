@@ -4,6 +4,8 @@
 
 The Decentralized AI Integrity Network for Legal Tech is an innovative framework designed to ensure the accountability, reliability, and transparency of generative AI outputs within the legal sector. By leveraging blockchain technology, this project aims to provide a robust mechanism for maintaining the integrity of AI-driven decisions, ensuring they adhere to legal standards and are free from bias.
 
+![mockup](./assets/image.png)
+
 ### Motivations
 
 - **Transparency**: To provide a clear audit trail for AI-generated decisions, enhancing trust and accountability in legal contexts.
