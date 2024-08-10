@@ -1,4 +1,4 @@
-# GovGen: Decentralized AI Integrity Network for Legal Tech
+# GovGen
 
 ## Project Description
 The Decentralized AI Integrity Network for Legal Tech aims to create a transparent and accountable framework for using generative AI in the legal sector. By leveraging blockchain technology, this project ensures that AI-generated outputs are reliable and adhere to legal standards. The network consists of various agents, including validators, contributors, and users, working together to maintain the integrity of AI-driven decisions.
