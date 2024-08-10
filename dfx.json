@@ -1,0 +1,38 @@
+{
+  "canisters": {
+    "govgen_backend": {
+      "build": "npx azle govgen_backend",
+      "candid": "src/govgen_backend/govgen_backend.did",
+      "gzip": true,
+      "main": "src/govgen_backend/src/index.ts",
+      "tech_stack": {
+        "cdk": {
+          "azle": {}
+        },
+        "language": {
+          "javascript": {},
+          "typescript": {}
+        }
+      },
+      "type": "custom",
+      "wasm": ".azle/govgen_backend/govgen_backend.wasm"
+    },
+    "govgen_frontend": {
+      "dependencies": [
+        "govgen_backend"
+      ],
+      "source": [
+        "src/govgen_frontend/assets"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Legal AI Interface</title>
+</head>
+<body>
+    <input id="prompt" type="text" placeholder="Enter your prompt">
+    <button onclick="submitPrompt()">Submit</button>
+    <p id="response"></p>
+
+    <script>
+        async function submitPrompt() {
+            const prompt = document.getElementById('prompt').value;
+            const response = await fetch('/api/submitRequest', {
+                method: 'POST',
+                body: JSON.stringify({ prompt }),
+                headers: { 'Content-Type': 'application/json' }
+            }).then(res => res.json());
+            document.getElementById('response').innerText = response;
+        }
+    </script>
+</body>
+</html>
