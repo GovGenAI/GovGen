@@ -1,8 +1,5 @@
 # GovGen
 
-## Set up Internet Computer
-
-
 ## Set up Bittensor
 These steps help connect you to a testnet instance of Bittensor, consisting of a validator node to feed the input to miners in addition to validating the output from the miners.
 
