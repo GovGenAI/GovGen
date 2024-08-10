@@ -26,7 +26,7 @@ The Decentralized AI Integrity Network for Legal Tech aims to create a transpare
 
 #### Clone the Repository
 ```bash
-git clone <repository-url>
+git clone https://github.com/GovGenAI/GovGen.git
 cd legal_ai_project
 ```
 
